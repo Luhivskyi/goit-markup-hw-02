@@ -1,2 +1,210 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-black-color: #2f303a;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f5f4fa;
+}
+/* Стилі для index.html*/
 body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.header {
+  background: var(--primary-white-color);
+}
+.adr:hover,
+:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+/* Logo */
+
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+/* Site-nav */
+.site-nav a {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.site-nav.link.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+  background: var(--secondary-black-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.work-title,
+.team-title {
+  color: var(--title-text-color);
+}
+
+/* Feachers */
+.feacher-list {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.feacher-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Work */
+.work {
+  background: var(--secondary-white-color);
+}
+
+.work-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Button */
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+/* Team */
+.team-title {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name-title {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name-text {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.address:hover,
+:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+/* Стилі для portfolio.html*/
+.menu {
+}
+.filter:hover,
+:focus {
+  color: var(--accent-color);
+}
+.names {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.text {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.button-p {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background: var(--secondary-white-color);
+  border-radius: 4px;
 }
