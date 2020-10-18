@@ -16,11 +16,18 @@ body {
 .header {
   background: var(--primary-white-color);
 }
-.adr:hover,
+.adr-link:hover,
 :focus {
   color: var(--accent-color);
-  text-decoration: none;
 }
+.adr-list {
+  color: var(--primary-white-color);
+  list-style: none;
+}
+.adr-link {
+  color: var(--primary-text-color);
+}
+
 /* Logo */
 
 .logo {
@@ -94,6 +101,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 
 .feacher-title {
@@ -171,6 +179,9 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
+.address {
+  list-style: none;
+}
 
 .footer {
   background: #2f303a;
@@ -183,6 +194,9 @@ body {
 :focus {
   color: var(--accent-color);
 }
+.filter {
+  list-style: none;
+}
 .names {
   font-family: Roboto;
   font-style: 400;
@@ -191,7 +205,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  text-decoration: none;
+  list-style: none;
 }
 .text {
   font-family: Roboto;
@@ -215,4 +229,16 @@ body {
   background: var(--secondary-white-color);
   border-radius: 4px;
   text-decoration: none;
+}
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+.link {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.link:hover,
+:focus {
+  color: var(--accent-color);
 }
