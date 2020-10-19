@@ -16,16 +16,25 @@ body {
 .header {
   background: var(--primary-white-color);
 }
+
+.adr-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+}
+
 .adr-link:hover,
-:focus {
+.adr-link:focus {
   color: var(--accent-color);
 }
 .adr-list {
-  color: var(--primary-white-color);
   list-style: none;
-}
-.adr-link {
-  color: var(--primary-text-color);
+  font-style: normal;
 }
 
 /* Logo */
@@ -130,6 +139,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.work-list {
+  list-style: none;
+}
 
 /* Button */
 
@@ -155,6 +167,9 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.photo {
+  list-style: none;
 }
 .name-title {
   font-family: Roboto;
@@ -188,13 +203,12 @@ body {
 }
 
 /* Стилі для portfolio.html*/
-.menu {
-}
+
 .filter:hover,
 :focus {
   color: var(--accent-color);
 }
-.filter {
+.filter-list {
   list-style: none;
 }
 .names {
@@ -234,11 +248,37 @@ body {
   text-decoration: none;
   list-style: none;
 }
-.link {
+.link-a {
   color: var(--primary-white-color);
   text-decoration: none;
+  font-style: normal;
 }
+.link-a:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.address .link {
+  list-style: none;
+  font-style: normal;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
 .link:hover,
 :focus {
   color: var(--accent-color);
+}
+.posters {
+  text-decoration: none;
 }
